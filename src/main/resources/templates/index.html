@@ -18,6 +18,8 @@
   <p>This is an unsecured page, but you can access the secured pages after authenticating.</p>
   <ul>
     <li>Go to the <a href="/user/index" th:href="@{/user/index}">secured pages</a></li>
+    <li sec:authorize="hasRole('SUPERDOG')">Go to the <a href="/dog/index" th:href="@{/dog/index}">super dog pages</a></li>
+    <li sec:authorize="hasRole('FATCAT')">Go to the <a href="/cat/index" th:href="@{/cat/index}">fat cat pages</a></li>
   </ul>
 </body>
 </html>

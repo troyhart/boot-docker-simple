@@ -18,12 +18,12 @@ form div {
 }
 
 form div label {
-  position: fixed;
+  position: absolute;
   left: 10px;
   width: 150px;
 }
 
 form div input {
-    position: fixed;
+    position: absolute;
     left: 160px;
 }

@@ -22,6 +22,16 @@ public class MainController {
     return "user/index";
   }
 
+  @RequestMapping("/dog/index")
+  public String dogIndex() {
+    return "dog/index";
+  }
+
+  @RequestMapping("/cat/index")
+  public String catIndex() {
+    return "cat/index";
+  }
+
   @RequestMapping("/login")
   public String login() {
     return "login";
