@@ -1,0 +1,29 @@
+body {
+  font-family: sans;
+  font-size: 1em;
+}
+
+p.error {
+  font-weight: bold;
+  color: red;
+}
+
+div.logout {
+  float: right;
+}
+form div {
+    position: relative;
+    height: 1em;
+    padding: .25em;
+}
+
+form div label {
+  position: fixed;
+  left: 10px;
+  width: 150px;
+}
+
+form div input {
+    position: fixed;
+    left: 160px;
+}
